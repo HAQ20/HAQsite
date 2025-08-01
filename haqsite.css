@@ -1,0 +1,50 @@
+body{
+    background-color: #2C2C2C;
+    color: #F7374F;
+    margin: 0;
+}
+.big_text{
+    font-size: 140px;
+    font-family: "Bitcount", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+header{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.menu {
+    position: fixed;
+    right: 0;
+    top: 10%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    background-image: url('left-default.png');
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    z-index: 1000;
+}
+
+.menu:hover{
+    background-image: url('left-hovered.png');
+}
+
+.menu.clicked {
+    background-image: url('right-default.png');
+}
+
+.menu.clicked:hover{
+    background-image: url('right-hovered.png');
+}
