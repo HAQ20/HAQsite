@@ -1,0 +1,231 @@
+{
+	"albums": [
+		{
+			"id": "0",
+			"title": "Cowboy Bebop Ost - SEATBELTS",
+			"cover_1": "assets/Cover_1",
+            "cover_2": "assets/Cover_2",
+			"discs": [
+				{
+                    "title": "Disc 1",
+					"sides": [
+						{
+							"id": "side-a",
+                            "gif": "assets/Cowboy_Bebop_small.gif",
+                            "png": "assets/Cowboy_Bebop_small.png",
+							"songs": [
+                                {
+                                "id": "0",
+                                "title": "Tank!",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Tank!.mp3"
+                                },
+                                {
+                                "id": "1",
+                                "title": "Rush",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Rush.mp3"
+                                },
+                                {
+                                "id": "2",
+                                "title": "Spokey Dokey",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Spokey%20Dokey.mp3"
+                                },
+                                {
+                                "id": "3",
+                                "title": "Bad Dog No Biscuits",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Bad%20Dog%20No%20Biscuits.mp3"
+                                },
+                                {
+                                "id": "4",
+                                "title": "Cat Blues",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Cat%20Blues.mp3"
+                                }
+                            ]
+						},
+						{
+							"id": "side-b",
+                            "gif": "assets/Cowboy_Bebop_small_2.gif",
+                            "png": "assets/Cowboy_Bebop_small_2.png",
+							"songs": [
+                                {
+                                "id": "0",
+                                "title": "Cosmos",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Cosmos.mp3"
+                                },
+                                {
+                                "id": "1",
+                                "title": "Space Lion",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Space%20Lion.mp3"
+                                },
+                                {
+                                "id": "2",
+                                "title": "Waltz For Zizi",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Waltz%20for%20Zizi.mp3"
+                                },
+                                {
+                                "id": "3",
+                                "title": "Piano Black",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Piano%20Black.mp3"
+                                },
+                                {
+                                "id": "4",
+                                "title": "Pot City",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Pot%20City.mp3"
+                                }
+                            ]
+						}
+					]
+				},
+                {
+                    "title": "Disc 1",
+					"sides": [
+						{
+							"id": "side-a",
+                            "gif": "assets/Cowboy_Bebop_small_3.gif",
+                            "png": "assets/Cowboy_Bebop_small_3.png",
+							"songs": [
+                                {
+                                "id": "0",
+                                "title": "Tank!",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Tank!.mp3"
+                                },
+                                {
+                                "id": "0",
+                                "title": "Rush",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Rush.mp3"
+                                },
+                                {
+                                "id": "0",
+                                "title": "Tank!",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Tank!.mp3"
+                                },
+                                {
+                                "id": "0",
+                                "title": "Rush",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Rush.mp3"
+                                }
+                                
+                            ]
+						},
+						{
+							"id": "side-b",
+                            "gif": "assets/Cowboy_Bebop_small_4.gif",
+                            "png": "assets/Cowboy_Bebop_small_4.png",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						}
+					]
+				}
+			]
+		},
+        {
+			"id": "1",
+			"title": "Metaphorical Music - Nujabes",
+			"cover": "/files/images/album-1-cover.jpg",
+			"discs": [
+				{
+					"id": "disc-1",
+                    "title": "Disc 1",
+					"sides": [
+						{
+							"id": "side-a",
+                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						},
+						{
+							"id": "side-b",
+                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						}
+					]
+				}
+			]
+		},
+        {
+			"id": "2",
+			"title": "Undertale Ost - Toby Fox",
+			"cover": "/files/images/album-1-cover.jpg",
+			"discs": [
+				{
+					"id": "disc-1",
+                    "title": "Disc 1",
+					"sides": [
+						{
+							"id": "side-a",
+                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						},
+						{
+							"id": "side-b",
+                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						}
+					]
+				}
+			]
+		},
+        {
+			"id": "3",
+			"title": "Hello, Dolly - Louis Armstrong",
+			"cover": "/files/images/album-1-cover.jpg",
+			"discs": [
+				{
+					"id": "disc-1",
+                    "title": "Disc 1",
+					"sides": [
+						{
+							"id": "side-a",
+                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						},
+						{
+							"id": "side-b",
+                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						}
+					]
+				}
+			]
+		}
+	]
+}

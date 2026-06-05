@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAQsite</title>
     <link rel="stylesheet" href="haqsite.css">
-    <script src="haqsite.js" defer></script>
+    <script src="nav.js" defer></script>
+    <script src="vinyl.js" defer></script>
+    <script src="randombullshit.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&display=swap" rel="stylesheet">
@@ -17,8 +19,148 @@
             HELLO
         </div>
     </header>
-    <div class="menu">
-    
-    </div>
+    <nav class="menu">
+        <div class="menu_button"></div>
+        <div class="menu_panel">
+            <table>
+                <tr>
+                    <th><a href="index.html"><img src="assets/home.gif" alt=""></a></th>
+                </tr>
+                <tr>
+                    <th><a href="links.html"><img src="assets/links.gif" alt="links"></a></th>
+                </tr>
+                <tr>
+                    <th>Comming soon...</th>
+                </tr>
+            </table>
+        </div>
+    </nav>
+    <main>
+        <section class="sidebar">
+            <a href="https://imhaq.atabook.org/">
+            <img src="assets/Guestbook.gif" alt="">
+            </a>
+        </section>
+        <section class="main_section">
+            <h2>I'm Haq, you are <input type="text" id="user-name"> and together we are</h2>
+            <div class="intro">
+                <h2 id="intro-segment"></h2>
+                <h2>Feel free to reach out in the Guestbook</h2>
+            </div>
+            <h1>Go through my vinyl collection:</h1>
+            <section class="vinyl_player_box">
+            <section class="player">
+                <div class="player_step">
+                    <label for="album-select"><span>Album</span></label>
+                    <select name="album" id="album-select"></select>
+                </div>
+                <div class="player_step">
+                    <div class="step_header">
+                        <span>Disc</span>
+                        <p class="step_display" id="disc-display"></p>
+                    </div>
+                    <div class="step_controls">
+                        <button type="button" class="step_button">Back</button>
+                        <button type="button" class="step_button">Next</button>
+                    </div>
+                </div>
+
+                <div class="player_step player_step--side">
+                    <span>Side</span>
+                    <div class="radio_row">
+                        <label><input type="radio" value="0" name="side" checked> Side A</label>
+                        <label><input type="radio" value="1" name="side"> Side B</label>
+                    </div>
+                </div>
+
+                <div class="player_step">
+                    <div class="step_header">
+                        <span>Song</span>
+                        <p class="step_display" id="song-display"></p>
+                    </div>
+                    <div class="step_controls" aria-label="Song selection">
+                        <button type="button" class="step_button">Back</button>
+                        <button type="button" class="step_button step_button--pause">Pause</button>
+                        <button type="button" class="step_button">Next</button>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="display">
+                <p>Feed from a live camera in my room 100% legit:</p>
+            <div class="vinyl_display"></div>
+                <label for="volume">Volume</label>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+            </section>
+            <div class="cover"></div>
+        </section>
+            <h2>Only a fraction of the songs are actually uploaded because downloading them is really annoying, so if someone knows a good and free way to download mp3 of songs tell me in Guestbook Please</h2>
+            <section class="song_of_the_week">
+                <h1>Song of the week:</h1>
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/698oW8VNAcirIk3TLFVyfQ?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <h2>You've found me at a very zudndamon time of my life</h2>
+            </section>
+            <section class="games">
+                <h2>Amazing games I really recommend:</h2>
+                <div class="game">
+                <a href="https://store.steampowered.com/app/420530/OneShot/"><img src="assets/Oneshot_banner.png" alt="Oneshot banner"><p>My favorite game. The story is incredible and the characters are too cute not to love. 11/10</p></a>
+                </div>
+                <div class="game">
+                <a href="https://store.steampowered.com/app/716710/__Antinomy_of_Common_Flowers/"><img src="assets/Touhou-antinomy-of-common-flowers.png" alt="Touhou antinomy of common flowers banner"><p>A beautiful pixel art touhou fighting game. I'm playing it right now and its a blast.</p></a>
+                </div>
+                <div class="game">
+                <a href="https://store.steampowered.com/app/620980/Beat_Saber/"><img src="assets/Beat_Saber_banner.png" alt=""><p>If you have a VR headset this is a must play. It's a game I always find myself returning to.</p></a>
+                </div>
+                <div class="game">
+                <a href="https://store.steampowered.com/app/257850/Hyper_Light_Drifter/"><img src="assets//Hyper-Light-Drifter-banner.png" alt=""><p>A stunning masterpiece of a game, the lore is very hidden but one you understand it you'll definitely apriciate it.</p></a>
+                </div>
+                <div class="game">
+                <a href="https://store.steampowered.com/app/367520/Hollow_Knight/"><img src="assets/Hollow_Knight_banner.png" alt=""><p>If you somehow never played this atmospheric metroidvania yet then you're missing out.</p></a>
+                </div>
+                <div class="game">
+                <a href="https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/"><img src="assets/hollow_knight_silksong_banner.png" alt=""><p>An incredible sequel to Hollow Knight, its as amazing as the community makes it out to be</p></a>
+                </div>
+            </section>
+            <section class="last_anime">
+                <br>
+                <h2>The last anime i finished:</h2>
+                <h2>A Certain Scientific Accelerator</h2>
+                <div class="last_anime_box">
+                <a href="https://myanimelist.net/anime/38480/Toaru_Kagaku_no_Accelerator"><img src="https://cdn.myanimelist.net/images/anime/1160/99995.jpg" alt=""></a>
+                <div class="last_anime_text">
+                <h2>Main Section</h2>
+                <p>I love Accelerator, he's the entire reason I even started this series, so I was pleasantly suprised that there was a whole anime dedicated to him. I enjoyed watching it</p>
+                <h2>Spoiler Section</h2>
+                <p id="spoiler">I would love if he actually managed to restore his power and stop needing the batteries, I understand why it was needed but his whole personality kinda stops working when he feels powerless</p>
+                </div>
+                </div>
+            </section>
+            <section class="What_next">
+                <h1>Feature/Priority list:</h1>
+                <ol>
+                    <li>Make some pixel art icons for the menu buttons, radios and sliders</li>
+                    <li>Fix the mobile view</li>
+                    <li>Add in the missing songs</li>
+                    <li>Do something on the links page, because its too empty</li>
+                    <li>Make a better background</li>
+                    <li>Put in a live chat</li>
+                    <li>Find something to put in the sidebars</li>
+                    <li>Make a custom favicon</li>
+                </ol>
+            </section>
+        </section>
+        <section class="sidebar">
+        </section>
+    </main>
+    <footer>
+        <br>
+        <section class="button_88x31">
+        <img src="https://cyber.dabamos.de/88x31/2hu.gif" alt="2hu">
+        <img src="https://cyber.dabamos.de/88x31/ralseismokingadart.gif" alt="ralseiblunt">
+        <img src="https://cyber.dabamos.de/88x31/github.gif" alt="github">
+        </section>
+        <p>version 1.5</p>
+    </footer>
+
 </body>
 </html>
