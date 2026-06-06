@@ -3,8 +3,16 @@
 		{
 			"id": "0",
 			"title": "Cowboy Bebop Ost - SEATBELTS",
-			"cover_1": "assets/Cover_1",
-            "cover_2": "assets/Cover_2",
+            "covers": [
+                "assets/Cover_1.png",
+                "assets/Cover_2.png",
+                "assets/Cover_3.png",
+                "assets/Cover_4.png",
+                "assets/Cover_5.png",
+                "assets/Cover_6.png",
+                "assets/Cover_7.png",
+                "assets/Cover_8.png"
+                ],
 			"discs": [
 				{
                     "title": "Disc 1",
@@ -17,27 +25,27 @@
                                 {
                                 "id": "0",
                                 "title": "Tank!",
-                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Tank!.mp3"
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Tank!.mp3"
                                 },
                                 {
                                 "id": "1",
                                 "title": "Rush",
-                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Rush.mp3"
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Rush.mp3"
                                 },
                                 {
                                 "id": "2",
                                 "title": "Spokey Dokey",
-                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Spokey%20Dokey.mp3"
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Spokey%20Dokey.mp3"
                                 },
                                 {
                                 "id": "3",
                                 "title": "Bad Dog No Biscuits",
-                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Bad%20Dog%20No%20Biscuits.mp3"
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Bad%20Dog%20No%20Biscuits.mp3"
                                 },
                                 {
                                 "id": "4",
                                 "title": "Cat Blues",
-                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Cat%20Blues.mp3"
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Cat%20Blues.mp3"
                                 }
                             ]
 						},
@@ -49,34 +57,34 @@
                                 {
                                 "id": "0",
                                 "title": "Cosmos",
-                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Cosmos.mp3"
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Cosmos.mp3"
                                 },
                                 {
                                 "id": "1",
                                 "title": "Space Lion",
-                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Space%20Lion.mp3"
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Space%20Lion.mp3"
                                 },
                                 {
                                 "id": "2",
                                 "title": "Waltz For Zizi",
-                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Waltz%20for%20Zizi.mp3"
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Waltz%20for%20Zizi.mp3"
                                 },
                                 {
                                 "id": "3",
                                 "title": "Piano Black",
-                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Piano%20Black.mp3"
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Piano%20Black.mp3"
                                 },
                                 {
                                 "id": "4",
                                 "title": "Pot City",
-                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Pot%20City.mp3"
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Pot%20City.mp3"
                                 }
                             ]
 						}
 					]
 				},
                 {
-                    "title": "Disc 1",
+                    "title": "Disc 2",
 					"sides": [
 						{
 							"id": "side-a",
@@ -85,24 +93,40 @@
 							"songs": [
                                 {
                                 "id": "0",
-                                "title": "Tank!",
-                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Tank!.mp3"
+                                "title": "Too Good Too Bad",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Cowboy%20Bebop%20OST%201%20-%20Too%20Good%20Too%20Bad.mp3"
                                 },
                                 {
-                                "id": "0",
-                                "title": "Rush",
-                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Rush.mp3"
+                                "id": "1",
+                                "title": "Car 24",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Cowboy%20Bebop%20OST%201%20-%20Car24.mp3"
                                 },
                                 {
-                                "id": "0",
-                                "title": "Tank!",
-                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Tank!.mp3"
+                                "id": "2",
+                                "title": "The Egg And I",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Cowboy%20Bebop%20OST%201%20-%20The%20Egg%20and%20I.mp3"
                                 },
                                 {
-                                "id": "0",
-                                "title": "Rush",
-                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/Rush.mp3"
+                                "id": "3",
+                                "title": "Felt Tip Pen",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Cowboy%20Bebop%20OST%201%20-%20Felt%20Tip%20Pen.mp3"
+                                },
+                                {
+                                "id": "4",
+                                "title": "Rain",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Cowboy%20Bebop%20OST%201%20-%20Rain.mp3"
+                                },
+                                {
+                                "id": "5",
+                                "title": "Digging My Potato",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Cowboy%20Bebop%20OST%201%20-%20Digging%20My%20Potato.mp3"
+                                },
+                                {
+                                "id": "6",
+                                "title": "Memory",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Cowboy%20Bebop%20OST%201%20-%20Memory.mp3"
                                 }
+                                
                                 
                             ]
 						},
@@ -112,9 +136,29 @@
                             "png": "assets/Cowboy_Bebop_small_4.png",
 							"songs": [
                                 {
-                                "id": "",
-                                "title": "",
-                                "url": ""
+                                "id": "0",
+                                "title": "What Planet Is This?!",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/What%20Planet%20Is%20This%EF%BC%9F!.mp3"
+                                },
+                                {
+                                "id": "1",
+                                "title": "Diamonds",
+                                "mp3": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/The%20Seatbelts%20-%20Diamonds.mp3"
+                                },
+                                {
+                                "id": "2",
+                                "title": "Mushroom Hunting",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Mushroom%20Hunting.mp3"
+                                },
+                                {
+                                "id": "3",
+                                "title": "Einstein Groovin",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Einstein%20Groovin'.mp3"
+                                },
+                                {
+                                "id": "4",
+                                "title": "Pearls",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/CowboyBebop-Ost/Pearls.mp3"
                                 }
                             ]
 						}
@@ -125,31 +169,121 @@
         {
 			"id": "1",
 			"title": "Metaphorical Music - Nujabes",
-			"cover": "/files/images/album-1-cover.jpg",
+			"covers": [
+                "assets/Cover_1_Nujabes.png",
+                "assets/Cover_2_Nujabes.png",
+                "assets/Cover_3_Nujabes.png",
+                "assets/Cover_4_Nujabes.png"
+                ],
 			"discs": [
 				{
-					"id": "disc-1",
                     "title": "Disc 1",
 					"sides": [
 						{
 							"id": "side-a",
-                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+                            "gif": "assets/Nujabes_small.gif",
+                            "png": "assets/Nujabes_small.png",
 							"songs": [
                                 {
-                                "id": "",
-                                "title": "",
-                                "url": ""
+                                "id": "0",
+                                "title": "Blessing It - remix",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Blessing%20It%20-remix%20(feat.Substantial%20%26%20Pase%20Rock%20from%20Five%20Deez)%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "1",
+                                "title": "Horn In The Middle",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Horn%20in%20the%20middle%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "2",
+                                "title": "Lady Brown",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Lady%20Brown%20(feat.%20Cise%20Starr%20from%20CYNE)%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "3",
+                                "title": "Kumomi",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Kumomi%20%5BOfficial%20Audio%5D.mp3"
                                 }
                             ]
 						},
 						{
 							"id": "side-b",
-                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+                            "gif": "assets/Nujabes_small_2.gif",
+                            "png": "assets/Nujabes_small_2.png",
 							"songs": [
                                 {
-                                "id": "",
-                                "title": "",
-                                "url": ""
+                                "id": "0",
+                                "title": "High 2 Lows",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Highs%202%20Lows%20(feat.Cise%20Starr%20from%20CYNE)%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "1",
+                                "title": "Beat Lament The World",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Beat%20laments%20the%20world%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "2",
+                                "title": "Letter From Yokosuka",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Letter%20from%20Yokosuka%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "3",
+                                "title": "Think Different",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Think%20Different%20(feat.Substantial)%20%5BOfficial%20Audio%5D.mp3"
+                                }
+                            ]
+						}
+					]
+				},
+                {
+                    "title": "Disc 2",
+					"sides": [
+						{
+							"id": "side-a",
+                            "gif": "assets/Nujabes_small_3.gif",
+                            "png": "assets/Nujabes_small_3.png",
+							"songs": [
+                                {
+                                "id": "0",
+                                "title": "A Day By Atmosphere Supreme",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20A%20day%20by%20atmosphere%20supreme%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "1",
+                                "title": "Next View",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Next%20view%20(feat.%20Uyama%20Hiroto)%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "2",
+                                "title": "Latitude -remix",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Latitude%20-remix%20(feat.Five%20Deez)%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "3",
+                                "title": "F.I.L.O.",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20F.I.L.O.%20(feat.%20Shing02)%20%5BOfficial%20Audio%5D.mp3"
+                                }
+                            ]
+						},
+						{
+							"id": "side-b",
+                            "gif": "assets/Nujabes_small_4.gif",
+                            "png": "assets/Nujabes_small_4.png",
+							"songs": [
+                                {
+                                "id": "0",
+                                "title": "Summer Gypsy",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Summer%20Gypsy%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "1",
+                                "title": "The Final View",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20The%20Final%20View%20%5BOfficial%20Audio%5D.mp3"
+                                },
+                                {
+                                "id": "2",
+                                "title": "Peaceland",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Nujabes/Nujabes%20-%20Peaceland%20%5BOfficial%20Audio%5D.mp3"
                                 }
                             ]
 						}
@@ -160,15 +294,20 @@
         {
 			"id": "2",
 			"title": "Undertale Ost - Toby Fox",
-			"cover": "/files/images/album-1-cover.jpg",
+			"covers": [
+                "",
+                "",
+                "",
+                ""
+                ],
 			"discs": [
 				{
-					"id": "disc-1",
                     "title": "Disc 1",
 					"sides": [
 						{
 							"id": "side-a",
-                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+                            "gif": "",
+                            "png": "",
 							"songs": [
                                 {
                                 "id": "",
@@ -179,7 +318,124 @@
 						},
 						{
 							"id": "side-b",
-                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+                            "gif": "",
+                            "png": "",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						}
+					]
+				},
+                {
+                    "title": "Disc 2",
+					"sides": [
+						{
+							"id": "side-a",
+                            "gif": "",
+                            "png": "",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						},
+						{
+							"id": "side-b",
+                            "gif": "",
+                            "png": "",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						}
+					]
+				},
+                {
+                    "title": "Disc 3",
+					"sides": [
+						{
+							"id": "side-a",
+                            "gif": "",
+                            "png": "",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						},
+						{
+							"id": "side-b",
+                            "gif": "",
+                            "png": "",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						}
+					]
+				},
+                {
+                    "title": "Disc 4",
+					"sides": [
+						{
+							"id": "side-a",
+                            "gif": "",
+                            "png": "",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						},
+						{
+							"id": "side-b",
+                            "gif": "",
+                            "png": "",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						}
+					]
+				},
+                {
+                    "title": "Disc 5",
+					"sides": [
+						{
+							"id": "side-a",
+                            "gif": "",
+                            "png": "",
+							"songs": [
+                                {
+                                "id": "",
+                                "title": "",
+                                "url": ""
+                                }
+                            ]
+						},
+						{
+							"id": "side-b",
+                            "gif": "",
+                            "png": "",
 							"songs": [
                                 {
                                 "id": "",
@@ -195,31 +451,86 @@
         {
 			"id": "3",
 			"title": "Hello, Dolly - Louis Armstrong",
-			"cover": "/files/images/album-1-cover.jpg",
+			"covers": [
+                "assets/Cover_1_Louis.png",
+                "assets/Cover_2_Louis.png"
+                ],
 			"discs": [
 				{
-					"id": "disc-1",
+                    
                     "title": "Disc 1",
 					"sides": [
 						{
 							"id": "side-a",
-                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+                            "gif": "assets/Louis_small_1.gif",
+                            "png": "assets/Louis_small_1.png",
 							"songs": [
                                 {
-                                "id": "",
-                                "title": "",
-                                "url": ""
+                                "id": "0",
+                                "title": "Hello, Dolly!",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/Louis%20Armstrong%20-%20Hello%2C%20Dolly!%20(Audio).mp3"
+                                },
+                                {
+                                "id": "1",
+                                "title": "It's Been A Long, Long Time",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/Louis%20Armstrong%20-%20It's%20Been%20A%20Long%2C%20Long%20Time%20(Audio).mp3"
+                                },
+                                {
+                                "id": "2",
+                                "title": "A Lot Of Livin' To Do",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/A%20Lot%20Of%20Livin'%20To%20Do.mp3"
+                                },
+                                {
+                                "id": "3",
+                                "title": "A Kiss To Build A Dream On",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/A%20Kiss%20To%20Build%20A%20Dream%20On.mp3"
+                                },
+                                {
+                                "id": "4",
+                                "title": "Someday",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/Someday.mp3"
+                                },
+                                {
+                                "id": "5",
+                                "title": "Hey, Look Me Over",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/Hey%20Look%20Me%20Over.mp3"
                                 }
                             ]
 						},
 						{
 							"id": "side-b",
-                            "gif": "/files/gifs/album-1-disc-1-side-a.gif",
+                            "gif": "assets/Louis_small_2.gif",
+                            "png": "assets/Louis_small_2.png",
 							"songs": [
                                 {
-                                "id": "",
-                                "title": "",
-                                "url": ""
+                                "id": "0",
+                                "title": "I Still Get Jealous",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/I%20Still%20Get%20Jealous.mp3"
+                                },
+                                {
+                                "id": "1",
+                                "title": "Moon River",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/Louis%20Armstrong%20-%20Moon%20River%20(Audio).mp3"
+                                },
+                                {
+                                "id": "2",
+                                "title": "Be My Life's Companion",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/Be%20My%20Life's%20Companion.mp3"
+                                },
+                                {
+                                "id": "3",
+                                "title": "Blueberry Hill",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/Louis%20Armstrong%20-%20Blueberry%20Hill%20(Audio).mp3"
+                                },
+                                {
+                                "id": "4",
+                                "title": "You Are Woman, I Am Man",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/You%20Are%20Woman%20I%20Am%20Man.mp3"
+                                },
+                                {
+                                "id": "5",
+                                "title": "Jeepers Creepers",
+                                "url": "https://file.garden/ahsYEg409mxcf5sZ/Louis/Jeepers%20Creepers.mp3"
                                 }
                             ]
 						}

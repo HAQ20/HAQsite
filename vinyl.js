@@ -7,7 +7,7 @@ const selectedSide = document.querySelectorAll('input[name="side"]');
 const songButtons = playerSteps[3].querySelectorAll(".step_button");
 const pause_play = document.querySelector(".step_button--pause");
 const vinylDisplay = document.querySelector(".vinyl_display");
-const coverContainer = document.querySelector(".cover") || vinylDisplay;
+const coverContainer = document.querySelector(".cover");
 const volumeBar = document.getElementById("volume");
 
 const discBackButton = discButtons[0];
@@ -20,17 +20,6 @@ audioPlayer.preload = "none";
 function syncVolume() {
     audioPlayer.volume = Number(volumeBar.value);
 }
-
-const coverImageFront = document.createElement("img");
-const coverImageBack = document.createElement("img");
-coverImageFront.className = "album_cover front";
-coverImageBack.className = "album_cover back";
-coverImageFront.alt = "Album cover (front)";
-coverImageBack.alt = "Album cover (back)";
-coverImageFront.addEventListener("contextmenu", event => event.preventDefault());
-coverImageBack.addEventListener("contextmenu", event => event.preventDefault());
-coverContainer.appendChild(coverImageFront);
-coverContainer.appendChild(coverImageBack);
 
 const vinylImage = document.createElement("img");
 vinylImage.className = "vinyl_image";
@@ -45,6 +34,14 @@ const state = {
     side: 0,
     playing: false,
 };
+
+function resetSideToA() {
+    state.side = 0;
+
+    selectedSide.forEach((radio) => {
+        radio.checked = Number(radio.value) === 0;
+    });
+}
 
 // Getters
 
@@ -66,6 +63,32 @@ function getCurrentSong() {
 
 function getSongSource(song) {
     return song.url || song.mp3 || "";
+}
+
+function getAlbumCoverSources(album) {
+    if (!album) {
+        return [];
+    }
+
+    if (Array.isArray(album.covers)) {
+        return album.covers.filter(Boolean);
+    }
+
+    const covers = [];
+
+    if (album.cover) {
+        covers.push(album.cover);
+    }
+
+    if (album.cover_1) {
+        covers.push(`${album.cover_1}.png`);
+    }
+
+    if (album.cover_2) {
+        covers.push(`${album.cover_2}.png`);
+    }
+
+    return covers;
 }
 
 function getVinylStill() {
@@ -100,15 +123,16 @@ function renderVinyl() {
 function renderAlbumCover() {
     const album = getCurrentAlbum();
 
-    function setImageSimple(imgElem, base) {
-        imgElem.src = base + ".png"
-    }
+    coverContainer.innerHTML = "";
 
-    const frontBase = album.cover_1;
-    const backBase = album.cover_2;
-
-    setImageSimple(coverImageFront, frontBase);
-    setImageSimple(coverImageBack, backBase);
+    getAlbumCoverSources(album).forEach((source, index) => {
+        const coverImage = document.createElement("img");
+        coverImage.className = "album_cover";
+        coverImage.src = source;
+        coverImage.alt = `${album?.title ?? "Album"} cover ${index + 1}`;
+        coverImage.addEventListener("contextmenu", event => event.preventDefault());
+        coverContainer.appendChild(coverImage);
+    });
 }
 
 async function loadMusic() {
@@ -154,46 +178,38 @@ function renderSongs(){
 
     songDisplay.textContent = currentSong?.title ?? "";
 
-    if (!currentSong) {
-        audioPlayer.pause();
-        audioPlayer.removeAttribute("src");
-        audioPlayer.load();
-        state.playing = false;
-        pause_play.textContent = "Play";
-        renderVinyl();
-        return;
-    }
+
 
     const songSource = getSongSource(currentSong);
 
-    if (!songSource) {
-        audioPlayer.pause();
-        audioPlayer.removeAttribute("src");
-        audioPlayer.load();
-        state.playing = false;
-        pause_play.textContent = "Play";
-        renderVinyl();
-        return;
-    }
 
     if (audioPlayer.src !== songSource) {
         audioPlayer.src = songSource;
         audioPlayer.load();
     }
 
-    syncVolume();
 
     if (state.playing) {
         audioPlayer.play().catch((error) => {
             console.error(error);
             state.playing = false;
-            pause_play.textContent = "Play";
+            renderControls();
             renderVinyl();
         });
     } else {
-        pause_play.textContent = "Play";
+        renderControls();
     }
 
+    renderVinyl();
+}
+
+function renderControls() {
+    pause_play.innerHTML = state.playing ? '<img src="assets/pause.png" alt="play" class="controls">' : '<img src="assets/play.png" alt="play"  class="controls">';
+}
+
+function renderAll() {
+    renderDiscs();
+    renderSongs();
     renderVinyl();
 }
 
@@ -204,24 +220,21 @@ albumSelect.addEventListener("change", () => {
     state.discIndex = 0;
     state.songIndex = 0;
     state.side = 0;
-    renderDiscs();
-    renderSongs();
-    renderVinyl();
+    renderAll();
 });
 
 selectedSide.forEach((radio) => {
     radio.addEventListener("change", (event) => {
         state.side = Number(event.target.value);
         state.songIndex = 0;
-        renderVinyl();
-        renderSongs();
+        renderAll();
     });
 });
 
 
 
 function getMaxSongIndex() {
-    return getCurrentSide()?.songs?.length ? getCurrentSide().songs.length - 1 : 0;
+    return (getCurrentSide()?.songs?.length ?? 1) - 1;
 }
 
 discNextButton.addEventListener("click", () =>{
@@ -229,18 +242,14 @@ discNextButton.addEventListener("click", () =>{
     if (state.discIndex < maxDiscIndex) {
         state.discIndex++;
         state.songIndex = 0;
-        renderDiscs();
-        renderSongs();
-        renderVinyl();
+        renderAll();
     }
 });
 discBackButton.addEventListener("click", () =>{
     if (state.discIndex > 0) {
         state.discIndex--;
         state.songIndex = 0;
-        renderDiscs();
-        renderSongs();
-        renderVinyl();
+        renderAll();
     }
 });
 
@@ -267,7 +276,7 @@ pause_play.addEventListener("click", () => {
         return;
     }
 
-    const songSource = currentSong.url || currentSong.mp3 || "";
+    const songSource = getSongSource(currentSong);
 
     if (!songSource) {
         return;
@@ -283,19 +292,19 @@ pause_play.addEventListener("click", () => {
     if (state.playing) {
         audioPlayer.pause();
         state.playing = false;
-        pause_play.textContent = "Play";
+        renderControls();
         renderVinyl();
         return;
     }
 
     audioPlayer.play().then(() => {
         state.playing = true;
-        pause_play.textContent = "Pause";
+        renderControls();
         renderVinyl();
     }).catch((error) => {
         console.error(error);
         state.playing = false;
-        pause_play.textContent = "Play";
+        renderControls();
         renderVinyl();
     });
 });
@@ -306,4 +315,5 @@ volumeBar.addEventListener("input", () => {
 
 
 syncVolume();
+resetSideToA();
 loadMusic();
