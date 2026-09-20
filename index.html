@@ -8,6 +8,7 @@
     <script src="nav.js" defer></script>
     <script src="vinyl.js" defer></script>
     <script src="randombullshit.js" defer></script>
+    <script src="blog.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&display=swap" rel="stylesheet">
@@ -36,10 +37,19 @@
         </div>
     </nav>
     <main>
+        
+        <!-- SIDEBAR LEFT -->
         <section class="sidebar">
             <a href="https://imhaq.atabook.org/">
             <img src="assets/Guestbook.gif" alt="">
             </a>
+            <a href="https://tamanotchi.world/38515c"><img src="https://tamanotchi.world/i2/38515" alt="It's tamaNOTchi! Click to feed!"></a>
+            <div>
+            <a href="https://forum.melonland.net/index.php?action=artifact;view=5870" title="Waxed Lightly Weathered Cut Copper Stairs"><img src="https://forum.melonland.net/awards/item.php?id=5870&amp;owner=4078" alt="Waxed Lightly Weathered Cut Copper Stairs" /></a>
+            <p>If you want the stairs message me on discord or melonland we can negotiate.</p>
+            <p>Discord - haq20 </p>
+            <p>Melonland - <a href="https://forum.melonland.net/index.php?action=profile;u=4078">HAQ</a></p>
+            </div>
         </section>
         <section class="main_section">
             <h2>I'm Haq, you are <input type="text" id="user-name"> and together we are</h2>
@@ -47,6 +57,13 @@
                 <h2 id="intro-segment"></h2>
                 <h2>Feel free to reach out in the Guestbook</h2>
             </div>
+            <!-- blog section starts here -->
+            <section class="blog">
+                <h1>Blog</h1>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
+                <div id="blog-list"></div>
+            </section>
+            <!-- the vinyl collection starts here -->
             <h1>Go through my vinyl collection:</h1>
             <section class="vinyl_player_box">
             <section class="player">
@@ -97,8 +114,9 @@
             <h3>I managed to find an amazing tool for downloading the songs you should check it out <a href="https://yt-bat.github.io/">yt-bat</a>. The Undertale Album is the only one not done yet becouse its an absolute beast, even with faster song downloading it would take hours to implement it becouse it has a TON of art I want to show off and 5 discs with a total of 109 songs so it will take a wile but I belive I can do it.</h3>
             <section class="song_of_the_week">
                 <h1>Song of the week:</h1>
-                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/698oW8VNAcirIk3TLFVyfQ?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                <h2>You've found me at a very zundamon time of my life</h2>
+                <!-- SONG OF THE WEEK LINK -->
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0tDcxR6suuA4F76L9nG1W2?utm_source=generator&si=d8d1dbd2744b4a5e" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <h2>I dug up the Katamari album</h2>
             </section>
             <section class="games">
                 <h2>Amazing games I really recommend:</h2>
@@ -124,28 +142,29 @@
             <section class="last_anime">
                 <br>
                 <h2>The last anime i finished:</h2>
-                <h2>Demon Slayer: Kimetsu no Yaiba - The Movie: Infinity Castle - Part 1: Akaza Returns</h2>
+                <h2>Medaka Box</h2>
                 <div class="last_anime_box">
-                <a href="https://myanimelist.net/anime/59192/Kimetsu_no_Yaiba_Movie_1__Mugenjou-hen_-_Akaza_Sairai"><img src="https://cdn.myanimelist.net/images/anime/1681/148216.jpg" alt=""></a>
+                <a href="https://myanimelist.net/anime/11761"><img src="https://cdn.myanimelist.net/images/anime/13/37947.jpg" alt=""></a>
                 <div class="last_anime_text">
                 <h2>Main Section</h2>
-                <p>I put of waching this for a while now, becouse I kinda forgot it exsisted LOL but now im finally cought up, anyways here are my thoughts: I always love the training arcs in anime and especially when thier folow up is good, and this was honestly an amazing follow up. It's a VERY good movie its so close for a 10/10 but I'll leave it at 9/10 since its not really what im looking for in an anime I could explain further but it would be way to long for this section</p>
+                <p>At first it looks like an ordinary school life anime but it goes off the rails really fast, i liked it a lot. The comedy was pure gold</p>
                 <h2>Spoiler Section</h2>
-                <p id="spoiler">I loved the Akaza backstory flashbacks. His story was amazing and at the end I was genuinely sympathising with him, if not for the people that poisoned that well he could of had an amazing and peacefull life. Also I like the transparent world skill that Tanjiro unlocked but it seems kinda of skechy and far fetched, but maybe im exaggerating a little.</p>
+                <p id="spoiler">Its kinda funny to think about Medaka just dragging the entire school, with pure human determination, because technically don't have any supernatural powers (at least not in this season). Also Shiranui is my favorite character</p>
                 </div>
                 </div>
             </section>
             <section class="What_next">
                 <h1>Feature/Priority list:</h1>
                 <ol>
+                    <li>Make an alarm clock or some stuff so i remember to update the site :3</li>
                     <li><s>Make some pixel art icons for the menu buttons, radios and</s> sliders - only the volume slider left</li>
                     <li><s>Fix the mobile view</s></li>
                     <li><s>Add in the </s> missing songs - half done</li>
                     <li>Do something on the links page, because its too empty</li>
-                    <li>Make a better background</li>
-                    <li>Put in a live chat</li>
-                    <li>Find something to put in the sidebars</li>
-                    <li>Make a custom favicon</li>
+                    <li><s>Make a better background</s></li>
+                    <li><s>Put in a live chat</s> not doing this, unless someone convinces me</li>
+                    <li><s>Find something to put in the sidebars</s> i mean there is something so im counting this as done</li>
+                    <li>Make a custom favicon <-- wait i still haven't done that????</li>
                 </ol>
             </section>
         </section>
@@ -155,11 +174,33 @@
     <footer>
         <br>
         <section class="button_88x31">
-        <img src="https://cyber.dabamos.de/88x31/2hu.gif" alt="2hu">
+            
+        <script>
+            async function choose() {
+                const buttons = document.querySelector('.button_88x31');
+                const links = [
+                    'https://www.youtube.com/watch?v=Tkv1OflxZ3w',
+                    'https://www.youtube.com/watch?v=9jcRp763TVQ',
+                    'https://www.youtube.com/watch?v=xzURI31zpnU',
+                    'https://www.youtube.com/watch?v=Fc81u8EoXCM',
+                    'https://www.youtube.com/watch?v=CIpJeSP4p98',
+                    'https://www.youtube.com/watch?v=shmAGOTo824',
+                    'https://www.youtube.com/watch?v=hKjJ5ord5K0',
+                    'https://www.youtube.com/watch?v=1vdgN13ptXo'
+                ];
+                const link = links[Math.floor(Math.random() * links.length)];
+                const buttonLink = document.createElement('a');
+                buttonLink.href = link;
+                buttonLink.innerHTML = '<img src="https://cyber.dabamos.de/88x31/2hu.gif" alt="2hu">';
+                buttons.appendChild(buttonLink);
+            }
+            choose();
+        </script>
+        <a href="https://melonland.net/" target="_blank"><img src="https://nav.melonland.net/badges/melonland-badge.png" alt="MelonLand"></a>
         <img src="https://cyber.dabamos.de/88x31/ralseismokingadart.gif" alt="ralseiblunt">
-        <img src="https://cyber.dabamos.de/88x31/github.gif" alt="github">
-        </section>
-        <p>version 1.5</p>
+        <a href="https://github.com/HAQ20"><img src="https://cyber.dabamos.de/88x31/github.gif" alt="github"></a>
+      </section>
+        <p>version 1.8</p>
     </footer>
 
 </body>

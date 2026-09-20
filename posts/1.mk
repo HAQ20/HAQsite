@@ -1,0 +1,6 @@
+---
+title: Touhou 6 remaster
+date: 10-09-2026
+---
+![Touhou banner](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs.yimg.com%2Flo%2Fmysterio%2Fapi%2F87fb425e08fe1591cb0e82a36d6ee95cfb765add826f90605594d9e5a340e2b9%2Flightyear_networkapi%2Fresizefill_w976%253Bquality_80%253Bformat_webp%2Fhttps%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgamedaily_articles_552%2Fc4e4f20f20dedc85b6537b1cd0ab6a4f.png&f=1&nofb=1&ipt=459183c7f1dbc0fa99b51742a25626b6fe6c2e341889385cf5f7123c2c0c711c)
+The new Touhou 6 remaster is out and its FUCKING AMAZING i love everything about it, I bought the game the moment it got released and i just now managed to beat on normal using 2 continues . I kinda suck but I'm having fun so it dosn't matter. I'm not stopping untill i get a 1cc, I also love all the posts about how we got confirmations on how the characters look in HD and some details are different than the community thought for years because the old sprites were so low quality, like the Daiyousei ponytail or Koakuma long hair, its very funny. Also off topic Happy Kirkversary and a late Happy Cirno day.
