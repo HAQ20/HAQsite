@@ -552,13 +552,90 @@ input[type="radio"]:checked + .radio-custom {
 /* FOOTER */
 .button_88x31{
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0 auto;
 }
 
+.button_88x31 section{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0 auto;
+}
 .button_88x31 img{
     width: 88px;
     height: 31px;
 }
+.buttons_now{
+    padding-top: 10px;
+    cursor: pointer;
+}
+.css_hard{
+    position: absolute;
+    rotate: 30deg;
+    right: 24px;
+    top: 0;
+}
+.more{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.8) rotate(-4deg);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0s linear 0.2s;
+    position: absolute;
+}
 
+.more.visible{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) rotate(0deg);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0s linear 0s;
+    position: relative;
+}
+
+.more.burst {
+    animation: Bullshit 0.5s steps(2, end);
+}
+
+@keyframes Bullshit {
+    0% {
+        transform: scale(0.8) rotate(-8deg) skewX(-8deg);
+    }
+    30% {
+        transform: scale(1.2) rotate(8deg) skewX(8deg);
+    }
+    65% {
+        transform: scale(0.9) rotate(-2deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+.javascript{
+    cursor: pointer;
+}
+.javascript img.funky{
+    animation: Funky 0.5s steps(2, end);
+}
+
+@keyframes Funky {
+    0%{
+        transform: rotate(90deg) skew(80deg);
+    }
+    100%{
+        transform: rotate(0) skew(-80deg);
+    }
+}
 
 footer{
     width: 100%;
